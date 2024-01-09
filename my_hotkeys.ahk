@@ -11,7 +11,7 @@
     CoordMode("Mouse", "Screen")
     MouseMove(800, 300)
     MouseClick("Left")
-    Send("{PgDn}")
+    Send("{PgUp}")
 }
 
 ^3::
@@ -22,7 +22,7 @@
     Send("{PgDn}")
 }
 
-^4::
++1::
 {
     CoordMode("Mouse", "Screen")
     MouseMove(100, 750)
@@ -30,7 +30,7 @@
     Send("{PgUp}")
 }
 
-^5::
++2::
 {
     CoordMode("Mouse", "Screen")
     MouseMove(100, 1000)
@@ -38,7 +38,7 @@
     Send("{PgUp}")
 }
 
-^6::
++3::
 {
     CoordMode("Mouse", "Screen")
     MouseMove(1800, 1000)
