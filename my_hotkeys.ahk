@@ -47,6 +47,13 @@
 }
 
 
+^n::
+{
+    CoordMode("Mouse", "Screen")
+    MouseMove(1600, 300)
+    MouseClick("Left",,,2)    
+}
+
 ^d::
 {
     send (A_Year . "-" . A_Mon . "-" . A_Mday . " " )
