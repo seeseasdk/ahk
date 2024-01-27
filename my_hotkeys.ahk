@@ -33,6 +33,14 @@
     }
 }
 
+^space::
+{   
+    if WinActive("ahk_exe BITDoctorOrder.exe")    
+    {        
+        Send("                   ")
+    }
+}
+
 +^1::
 {   
     if WinActive("ahk_exe BITDoctorOrder.exe")    
